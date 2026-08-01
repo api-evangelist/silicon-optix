@@ -1,8 +1,24 @@
 aid: silicon-optix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silicon-optix.png
 name: Silicon Optix
-description: Silicon Optix is a company surfaced as a portfolio company of canaan-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Silicon Optix Inc. was a fabless semiconductor company that designed image- and video-processing
+  chips, best known for its Realta HQV (Hollywood Quality Video) processor for high-definition video scaling,
+  de-interlacing, and noise reduction, and for the Teranex line of professional video processors. Surfaced as
+  a portfolio company of Canaan Partners, it was acquired by Integrated Device Technology (IDT) in 2008 (IDT
+  was subsequently acquired by Renesas). The company operated as a hardware/chip vendor and did not publish a
+  public developer API; its historical primary domain (siliconoptix.com) no longer resolves. This profile is
+  retained as a network stub with no live API surface.
 url: https://raw.githubusercontent.com/api-evangelist/silicon-optix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Semiconductors
+- Video Processing
+- Hardware
+- Chips
+- Defunct
+x-status: defunct
+x-domain-status: no-dns
+x-acquired-by: idt
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
